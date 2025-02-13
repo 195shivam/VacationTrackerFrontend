@@ -1,72 +1,75 @@
-.heading{
+.heading {
   font-size: 3rem;
   font-weight: 700;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:
+    'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-input{
+input {
   border: 1px solid white;
   width: 150px !important;
   border-radius: 16px !important;
   padding: 10px !important;
 }
-input[type=date]{
+input[type='date'] {
   border: 1px solid white;
   border-radius: 3px;
-  
 }
-select{
+select {
   width: 13.6rem;
   border-radius: 5px;
   padding: 5px !important;
 }
-input[type=submit]{
+input[type='submit'] {
   width: 7rem;
   background-color: white;
   border: 1px solid white;
   color: #525252;
 }
-input[type=submit]:hover{
+input[type='submit']:hover {
   background-color: #525252;
   border: 1px solid white;
 }
-select{
+select {
   width: 150px !important;
   border-radius: 16px !important;
 }
-.loginButton{
-  background-color: #525252 ;
+.loginButton {
+  background-color: #525252;
   border: 1px solid white;
   color: white;
   font-weight: 600;
 }
-.backGround{
+.backGround {
   height: 100vh;
-  
 }
-.registartion{
+.registartion {
   width: 30%;
   margin-top: auto;
-  background-color: #525252 ;
+  background-color: #525252;
   border-radius: 23px;
   color: white;
   /* box-shadow: 10px 4px 20px 4px black; */
   padding: 20px;
-  box-shadow: 10px 10px 30px rgb(70, 70, 70)
+  box-shadow: 10px 10px 30px rgb(70, 70, 70);
 }
-.logo{
+.logo {
   font-size: 2rem;
   align-items: center;
 }
-.logo div{
+.logo div {
   background-color: #525252;
   width: 50px;
   display: flex;
   justify-content: center;
   font-size: 150%;
-  font-weight:600;
+  font-weight: 600;
   color: white;
   border-radius: 70px;
 }
-.registrationForm{
+.registrationForm {
   justify-content: center !important;
+}
+@media screen {
+  
 }

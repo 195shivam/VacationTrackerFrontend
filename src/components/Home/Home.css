@@ -1,0 +1,118 @@
+.calenderHeader {
+  /* background-color: rgb(154, 153, 153); */
+  padding: 10px;
+}
+.weekDays {
+  padding: 10px;
+  /* background-color: rgb(20, 123, 241); */
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+  display: flex;
+}
+.dayBox {
+  width: 14.28%;
+  font-size: 15px;
+}
+.dateBox {
+  /* gap: 0.5%; */
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.dateCard {
+  padding: 10px 0 !important;
+
+  width: 14.15%;
+  height: 14.28vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.calenderChange:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.disabledDate {
+  padding: 10px 0 !important;
+  width: 14.15%;
+  height: 14.28vh;
+  background-color: rgb(240, 237, 237);
+  border: 0.2px solid rgb(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+.disabledDate div {
+  font-size: 2rem;
+  color: rgb(143, 141, 141);
+}
+.dateCard div {
+  font-size: 1rem;
+  position: relative;
+  z-index: 5;
+}
+.currentDate {
+  border: 2px solid rgb(198, 8, 8);
+  background-color: rgb(198, 8, 8, 0.1);
+}
+.endDate {
+  border: 5px solid rgb(0, 73, 0);
+}
+.startDate {
+  border: 5px solid rgb(11, 81, 212);
+}
+.applyLeave {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.leaveModal {
+  height: 10px;
+  display: grid;
+  justify-content: center;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 5;
+}
+.leaveStrip {
+  width: 100%;
+  height: 15px;
+  font-size: 0.65rem !important;
+  padding-left: 5px;
+  margin-bottom: 1.5px;
+}
+.borderRadiusLeft {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.borderRadiusRight {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dayName {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.3);
+}
+.eventDate{
+  font-size: 1rem !important;
+}
+.eventCard:has(.eventDate) {
+  border: 2px solid rgb(97, 1, 97);
+  background-color: rgb(97, 1, 97, 0.1);
+}
+@media (max-width: 550px) {
+  .dayBox {
+    font-size: 8px;
+  }
+  .dateCard {
+    height: 20vh;
+  }
+  .dateBox {
+    border-radius: 13px;
+  }
+  .eventDate{
+    font-size: 0.7rem !important;
+  }
+}
