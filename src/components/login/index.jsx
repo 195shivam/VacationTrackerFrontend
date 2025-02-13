@@ -70,7 +70,7 @@ function Login() {
 
           <div className="col-12  my-2 d-flex justify-content-center align-items-center gap-2 ">
             <Link
-              to="/"
+              to="/register"
               className="registerButton"
               style={{ textDecoration: 'none' }}
             >
