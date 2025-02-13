@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const axiosInstance = axios.create({
   baseURL: 'https://vacationtrackerbackend.onrender.com',
+
   timeout: 5000,
 });
 
