@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Register from './components/register';
-import Login from './components/Login';
+import Login from './components/login';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Profile from './components/Profile';
+import Profile from './components/profile';
 import Home from './components/Home';
 import { UserProvider } from './UserProvider';
 import AddEvent from './components/AddEvent';
