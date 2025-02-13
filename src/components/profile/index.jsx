@@ -2,7 +2,7 @@ import './Profile.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 // import { z } from 'zod';
-import { parseFormData } from '../Register/parcer';
+import { parseFormData } from '../register/parcer';
 import { useNavigate } from 'react-router-dom';
 import InputComponent from '../InputComponent';
 import Dropdown from '../DropDown';
